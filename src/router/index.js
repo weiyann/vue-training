@@ -33,6 +33,11 @@ const router = createRouter({
       component: () => import("../views/EventView.vue"),
     },
     {
+      path: "/reactive",
+      name: "reactive",
+      component: () => import("../views/ReactiveView.vue"),
+    },
+    {
       path: "/:domain(.*)*",
       name: "NotFound",
       component: import("../views/404.vue"),
