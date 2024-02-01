@@ -8,6 +8,7 @@ import { RouterLink, RouterView } from "vue-router";
     <RouterLink to="/about">About</RouterLink>
     <RouterLink to="/template">Template</RouterLink>
     <RouterLink to="/execution">Execution</RouterLink>
+    <RouterLink to="/event-handling">EventHandling</RouterLink>
   </nav>
   <RouterView />
 </template>

@@ -28,6 +28,11 @@ const router = createRouter({
       component: () => import("../views/ExecutionView.vue"),
     },
     {
+      path: "/event-handling",
+      name: "event-handling",
+      component: () => import("../views/EventView.vue"),
+    },
+    {
       path: "/:domain(.*)*",
       name: "NotFound",
       component: import("../views/404.vue"),
