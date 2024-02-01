@@ -38,6 +38,11 @@ const router = createRouter({
       component: () => import("../views/ReactiveView.vue"),
     },
     {
+      path: "/form",
+      name: "form",
+      component: () => import("../views/FormView.vue"),
+    },
+    {
       path: "/:domain(.*)*",
       name: "NotFound",
       component: import("../views/404.vue"),

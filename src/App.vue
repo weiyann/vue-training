@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from "vue-router";
     <RouterLink to="/execution">Execution</RouterLink>
     <RouterLink to="/event-handling">EventHandling</RouterLink>
     <RouterLink to="/reactive">Reactive</RouterLink>
+    <RouterLink to="/form">Form</RouterLink>
   </nav>
   <RouterView />
 </template>
