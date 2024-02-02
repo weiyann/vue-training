@@ -1,6 +1,5 @@
 <script setup>
-import Nav from "./Nav.vue";
-import Main from "./Main.vue";
+import { RouterView } from "vue-router";
 </script>
 
 <template>
@@ -10,4 +9,8 @@ import Main from "./Main.vue";
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  background-color: #ddd;
+}
+</style>
