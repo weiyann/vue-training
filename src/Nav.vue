@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from "vue-router";
-defineProps(["color"]);
+defineProps(["color", "subtitle"]);
 </script>
 
 <template>
@@ -17,6 +17,7 @@ defineProps(["color"]);
     <RouterLink to="/reactive">Reactive</RouterLink>
     <RouterLink to="/form">Form</RouterLink>
   </nav>
+  <div>{{ subtitle }}</div>
 </template>
 
 <style scoped>
