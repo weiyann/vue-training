@@ -1,9 +1,14 @@
 <script setup>
 import { RouterLink } from "vue-router";
+defineProps(["color"]);
 </script>
 
 <template>
-  <nav>
+  <nav
+    :style="{
+      backgroundColor: color,
+    }"
+  >
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/about">About</RouterLink>
     <RouterLink to="/template">Template</RouterLink>
@@ -18,5 +23,9 @@ import { RouterLink } from "vue-router";
 nav {
   display: flex;
   gap: 12px;
+}
+nav a {
+  text-decoration: none;
+  color: blue;
 }
 </style>

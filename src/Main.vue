@@ -1,10 +1,11 @@
 <script setup>
 import { RouterView } from "vue-router";
+defineProps(["props"]);
 </script>
 
 <template>
-  <Nav></Nav>
   <main>
+    <div>{{ props }}</div>
     <RouterView />
   </main>
 </template>

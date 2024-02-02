@@ -4,10 +4,8 @@ import Main from "./Main.vue";
 </script>
 
 <template>
-  <Nav></Nav>
-  <main>
-    <RouterView />
-  </main>
+  <Nav color="yellow"></Nav>
+  <Main props="傳入的屬性"></Main>
 </template>
 
 <style scoped></style>
