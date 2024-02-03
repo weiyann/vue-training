@@ -17,6 +17,7 @@ defineProps(["color", "subtitle"]);
     <RouterLink to="/reactive">Reactive</RouterLink>
     <RouterLink to="/form">Form</RouterLink>
     <RouterLink to="/test">Test</RouterLink>
+    <RouterLink to="/course">Course</RouterLink>
   </nav>
   <div>{{ subtitle }}</div>
 </template>
