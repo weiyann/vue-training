@@ -15,6 +15,7 @@ defineProps(["color", "subtitle"]);
     <RouterLink to="/execution">Execution</RouterLink>
     <RouterLink to="/event-handling">EventHandling</RouterLink>
     <RouterLink to="/reactive">Reactive</RouterLink>
+    <RouterLink to="/reactive2">Reactive2</RouterLink>
     <RouterLink to="/form">Form</RouterLink>
     <RouterLink to="/test">Test</RouterLink>
     <RouterLink to="/course">Course</RouterLink>

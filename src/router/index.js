@@ -38,6 +38,11 @@ const router = createRouter({
       component: () => import("../views/ReactiveView.vue"),
     },
     {
+      path: "/reactive2",
+      name: "reactive2",
+      component: () => import("../views/ReactiveView2.vue"),
+    },
+    {
       path: "/form",
       name: "form",
       component: () => import("../views/FormView.vue"),
